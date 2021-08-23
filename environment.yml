@@ -1,0 +1,18 @@
+name: qec
+channels:
+        - conda-forge
+dependencies:
+        - python
+        - ipython
+        - ipython_genutils
+        - jupyter
+        - jupyter_client
+        - numpy
+        - pandas
+        - scipy
+        - matplotlib
+        - pip
+        - pip:
+                - PyQt5
+                - pylint
+                - autopep8
